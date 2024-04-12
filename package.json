@@ -1,0 +1,23 @@
+{
+  "name": "nuxtjs-character-counter",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "format": "npx prettier --write ./**/*.{ts,vue}"
+  },
+  "dependencies": {
+    "@nuxt/ui": "^2.15.1",
+    "@nuxtjs/tailwindcss": "^6.11.4",
+    "nuxt": "^3.11.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
