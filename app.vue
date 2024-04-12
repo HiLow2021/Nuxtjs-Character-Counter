@@ -1,4 +1,8 @@
 <script setup lang="ts">
+useHead({
+    titleTemplate: '文字数カウンター'
+});
+
 const text = useState('text', () => '');
 const resultText = useState('resultText', () => '');
 
