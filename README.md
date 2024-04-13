@@ -8,7 +8,7 @@
 
 ## 備考
 
-- NuxtUI 導入時に TailsWindCSS も導入されるため、TailsWindCSS の個別インストールの必要なし。便利。
+- NuxtUI 導入時に TailsWindCSS も導入されるため、TailsWindCSS の個別インストールの必要なし。
 - ChakraUI を Nuxt.js v3 に適用出来なかった。NuxtUI を使った方が良い。
 
 ## 引用
