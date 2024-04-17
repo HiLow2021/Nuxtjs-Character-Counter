@@ -2,13 +2,19 @@
 
 ## 概要
 
-- 簡易な文字数カウンター。
+- 簡易な文字数カウンター。ダークモード搭載。
 - Nuxt.js v3 の習作アプリとして製作。
 - UI に NuxtUI、CSS に Tailwind CSS を使用。
 
+## 公式
+
+- https://nuxt.com/
+- https://ui.nuxt.com/
+- https://tailwindcss.com/
+
 ## 備考
 
-- NuxtUI 導入時に Tailwind CSS も導入されるため、Tailwind CSS の個別インストールの必要なし。
+- NuxtUI 導入時に @nuxtjs/tailwindcss、@nuxtjs/color-mode も導入される。
 - ChakraUI を Nuxt.js v3 に適用出来なかった。NuxtUI を使った方が良い。
 
 ## 引用
