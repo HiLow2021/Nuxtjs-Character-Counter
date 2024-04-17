@@ -20,9 +20,8 @@ function clear() {
 <template>
     <div class="flex justify-center p-10">
         <div class="flex w-full max-w-[800px] flex-col gap-8">
-            <h1 class="text-center text-5xl font-bold">文字数カウンター</h1>
-            <div class="flex h-[530px] flex-col gap-4 bg-neutral-200 p-8 shadow-lg">
-                <div class="rounded bg-white">
+            <div class="flex h-[530px] flex-col gap-4 bg-neutral-200 p-8 shadow-lg dark:bg-neutral-600">
+                <div class="rounded bg-white dark:bg-neutral-800">
                     <UTextarea
                         v-model="text"
                         color="primary"
@@ -41,15 +40,15 @@ function clear() {
                     </div>
                 </div>
             </div>
-            <div class="flex flex-col gap-4 bg-neutral-200 p-8 shadow-lg">
+            <div class="flex flex-col gap-4 bg-neutral-200 p-8 shadow-lg dark:bg-neutral-600">
                 <div class="flex flex-col gap-6">
-                    <div class="flex h-16 basis-1/2 items-center justify-between rounded bg-white p-4">
+                    <div class="flex h-16 basis-1/2 items-center justify-between rounded bg-white p-4 dark:bg-neutral-800">
                         <div class="text-2xl">総文字数</div>
-                        <div class="text-3xl text-blue-500">{{ resultText.length }} 文字</div>
+                        <div class="text-3xl text-blue-500 dark:text-blue-400">{{ resultText.length }} 文字</div>
                     </div>
-                    <div class="flex h-16 basis-1/2 items-center justify-between rounded bg-white p-4">
+                    <div class="flex h-16 basis-1/2 items-center justify-between rounded bg-white p-4 dark:bg-neutral-800">
                         <div class="text-2xl">総文字数 (空白・改行なし)</div>
-                        <div class="text-3xl text-blue-500">{{ resultText.replace(/\s+?/g, '').length }} 文字</div>
+                        <div class="text-3xl text-blue-500 dark:text-blue-400">{{ resultText.replace(/\s+?/g, '').length }} 文字</div>
                     </div>
                 </div>
             </div>
