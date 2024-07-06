@@ -1,7 +1,7 @@
 <script setup lang="ts">
 useHead({
-    titleTemplate: '',
-    title: '文字数カウンター'
+    title: '文字数カウンター',
+    titleTemplate: ''
 });
 
 const text = useState('text', () => '');
